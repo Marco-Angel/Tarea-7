@@ -8,4 +8,4 @@ Htop y arch-linux
       -Cuánta CPU, RAM y swap usan.
       -Qué usuarios o servicios consumen más recursos.
 
-  <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f3dfb4eb-1af3-49a1-b604-8238e98d6662" />
+  <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/f3dfb4eb-1af3-49a1-b604-8238e98d6662" />
