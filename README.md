@@ -19,3 +19,17 @@ Htop y arch-linux
 - Este complementa, Procesos en detalle donde  Glances da visión de red, disco y temperatura además de CPU/RAM.
 - En estado general del sistema, permite detectar cuellos de botella más rápido y exportar datos vía web o API.
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/570fedde-87e5-4d2a-85dd-425884d6dc03" />
+
+--
+## Complementar con ifconfig
+
+-ifconfig (o ip addr en sistemas modernos) muestra la configuración de las interfaces de red.
+** En que aporta**:
+      - Dirección IP local (IPv4 / IPv6).
+      - Máscara de red, gateway, estado de la interfaz (UP/DOWN).
+      - Cantidad de paquetes transmitidos/recibidos y errores.
+
+** Uso conjunto**:
+
+- htop o glances → muestran si hay carga o consumo alto de red.
+- ifconfig → te deja verificar qué interfaz está activa, si hay IP asignada o pérdida de paquetes.
