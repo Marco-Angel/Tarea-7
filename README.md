@@ -107,4 +107,7 @@ Tipos de direcciones IPv6:
 - En Ubuntu moderno se recomienda usar la utilidad ip (iproute2). ifconfig todavía está presente en algunos sistemas pero está obsoleta.
       - Mostrar todas las direcciones (IPv4 e IPv6):
 
-  
+   <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/c46057cf-c3f0-42d4-978b-e2203d0e171c" />
+   <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/28647e14-0bf6-442b-96fa-631a51f95875" />
+
+
