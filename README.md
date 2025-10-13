@@ -36,6 +36,7 @@ Htop y arch-linux
 
 
 --
+
 ## Complementar con nmap
 
 -nmap sirve para auditar la red y los servicios expuestos, no el rendimiento del equipo.
@@ -46,6 +47,7 @@ Htop y arch-linux
 - Usa la IP mostrada para definir el rango del escaneo.
 
 --
+
 ## lynis 
 
 lynis es una herramienta de auditoría de seguridad y cumplimiento.
@@ -72,6 +74,8 @@ Analiza configuraciones del sistema, permisos, autenticación, servicios, actual
 - Broadcast (dirigido a todos los hosts de una red — ej. 192.168.1.255).
 - Multicast (grupo de hosts — rango 224.0.0.0/4).
 - Problema histórico: agotamiento de direcciones -> NAT (traducción de direcciones) muy extendido.
+
+--
 
 **¿Qué es IPv6?**
 
