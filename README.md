@@ -111,4 +111,9 @@ Tipos de direcciones IPv6:
    <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/c46057cf-c3f0-42d4-978b-e2203d0e171c" />
    <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/28647e14-0bf6-442b-96fa-631a51f95875" />
 
+      - Mostrar solo IPv4:
+  <img width="800" height="411" alt="image" src="https://github.com/user-attachments/assets/5c78b9eb-fdb3-46d2-9e5b-895987139a89" />
+
+      - Mostrar solo IPv6:
+  <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7218f4c5-9164-42c1-b844-bb4e452f615c" />
 
