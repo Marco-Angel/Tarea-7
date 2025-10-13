@@ -61,6 +61,8 @@ Analiza configuraciones del sistema, permisos, autenticación, servicios, actual
 - Permisos y cuentas de usuario.
 - Paquetes y actualizaciones pendientes.
 - Puntuación general de seguridad.
+<img width="800" height="563" alt="image" src="https://github.com/user-attachments/assets/2b233981-54ed-4dde-965e-4923e0a55dd0" />
+
 
 --
 
