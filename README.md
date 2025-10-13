@@ -46,6 +46,8 @@ Htop y arch-linux
 - Detecta sistemas operativos y versiones (nmap -A).
 - Brinda procesos de red sospechosos o alto tráfico, usa nmap para descubrir si el equipo está exponiendo servicios no autorizados.
 - Usa la IP mostrada para definir el rango del escaneo.
+<img width="914" height="630" alt="image" src="https://github.com/user-attachments/assets/737a7ee0-8061-4266-bf88-1634d0399dd7" />
+
 
 --
 
