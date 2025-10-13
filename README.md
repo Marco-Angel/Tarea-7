@@ -52,63 +52,44 @@ lynis es una herramienta de auditoría de seguridad y cumplimiento.
 Analiza configuraciones del sistema, permisos, autenticación, servicios, actualizaciones y políticas.
 
 - Configuración del sistema operativo.
-
 - Estado del cortafuegos y logs.
-
 - Permisos y cuentas de usuario.
-
 - Paquetes y actualizaciones pendientes.
-
 - Puntuación general de seguridad.
 
 --
 
 **¿Qué es IPv4?**
 
-IPv4 (Internet Protocol version 4) es la versión clásica del protocolo IP.
+- IPv4 (Internet Protocol version 4) es la versión clásica del protocolo IP.
+- Direcciones de 32 bits escritas en notación decimal punteada: 192.168.1.10.
+- Espacio de direcciones: ~4.3 mil millones de direcciones.
+- Soporta subnetting con máscara (ej. /24 → 255.255.255.0).
+  
+  Tipos de direcciones IPv4:
 
-Direcciones de 32 bits escritas en notación decimal punteada: 192.168.1.10.
-
-Espacio de direcciones: ~4.3 mil millones de direcciones.
-
-Soporta subnetting con máscara (ej. /24 → 255.255.255.0).
-
-Tipos de direcciones IPv4:
-
-Unicast (una sola interfaz).
-
-Broadcast (dirigido a todos los hosts de una red — ej. 192.168.1.255).
-
-Multicast (grupo de hosts — rango 224.0.0.0/4).
-
-Problema histórico: agotamiento de direcciones -> NAT (traducción de direcciones) muy extendido.
+- Unicast (una sola interfaz).
+- Broadcast (dirigido a todos los hosts de una red — ej. 192.168.1.255).
+- Multicast (grupo de hosts — rango 224.0.0.0/4).
+- Problema histórico: agotamiento de direcciones -> NAT (traducción de direcciones) muy extendido.
 
 **¿Qué es IPv6?**
 
-IPv6 (Internet Protocol version 6) es el sucesor de IPv4.
-
-Direcciones de 128 bits en notación hexadecimal: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
-
-Notación corta: 2001:db8:85a3::8a2e:370:7334 (se comprimen ceros).
-
-Diseño para resolver el problema de espacio de direcciones (gran cantidad de direcciones).
+- IPv6 (Internet Protocol version 6) es el sucesor de IPv4.
+- Direcciones de 128 bits en notación hexadecimal: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+- Notación corta: 2001:db8:85a3::8a2e:370:7334 (se comprimen ceros).
+- Diseño para resolver el problema de espacio de direcciones (gran cantidad de direcciones).
 
 Nuevas características:
-
-Eliminación del broadcast (usa multicast).
-
-Autoconfiguración (SLAAC) y DHCPv6.
-
-Headers simplificados para eficiencia.
+- Eliminación del broadcast (usa multicast).
+- Autoconfiguración (SLAAC) y DHCPv6.
+- Headers simplificados para eficiencia.
 
 Tipos de direcciones IPv6:
+- Link-local: fe80::/10 (solo en enlace local, no enrutable globalmente).
+- Global unicast: (p. ej. 2000::/3) — rutas públicas.
+- Unique Local (ULA): fc00::/7 (equivalente privado, como RFC1918 en IPv4).
 
-Link-local: fe80::/10 (solo en enlace local, no enrutable globalmente).
 
-Global unicast: (p. ej. 2000::/3) — rutas públicas.
-
-Unique Local (ULA): fc00::/7 (equivalente privado, como RFC1918 en IPv4).
-
-Multicast: ff00::/8.
 
 
