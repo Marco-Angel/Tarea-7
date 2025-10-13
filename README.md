@@ -33,6 +33,7 @@ Htop y arch-linux
 
 - htop o glances → muestran si hay carga o consumo alto de red.
 - ifconfig → te deja verificar qué interfaz está activa, si hay IP asignada o pérdida de paquetes.
+<img width="832" height="635" alt="image" src="https://github.com/user-attachments/assets/053f6637-6553-4abb-b036-1d7205c58b5e" />
 
 
 --
