@@ -62,6 +62,7 @@ Analiza configuraciones del sistema, permisos, autenticación, servicios, actual
 - Paquetes y actualizaciones pendientes.
 - Puntuación general de seguridad.
 <img width="800" height="563" alt="image" src="https://github.com/user-attachments/assets/2b233981-54ed-4dde-965e-4923e0a55dd0" />
+<img width="885" height="631" alt="image" src="https://github.com/user-attachments/assets/c2c98861-b204-4f57-bd73-46494816343e" />
 
 
 --
@@ -100,5 +101,10 @@ Tipos de direcciones IPv6:
 - Unique Local (ULA): fc00::/7 (equivalente privado, como RFC1918 en IPv4).
 
 
+--
+## Comandos útiles en Ubuntu para explorar direcciones y estado de IPv4/IPv6
 
+- En Ubuntu moderno se recomienda usar la utilidad ip (iproute2). ifconfig todavía está presente en algunos sistemas pero está obsoleta.
+      - Mostrar todas las direcciones (IPv4 e IPv6):
 
+  
