@@ -48,7 +48,7 @@ Htop y arch-linux
 --
 
 --
-¿Qué es IPv4?
+**¿Qué es IPv4?**
 
 IPv4 (Internet Protocol version 4) es la versión clásica del protocolo IP.
 
@@ -68,7 +68,7 @@ Multicast (grupo de hosts — rango 224.0.0.0/4).
 
 Problema histórico: agotamiento de direcciones -> NAT (traducción de direcciones) muy extendido.
 
-2. ¿Qué es IPv6?
+**¿Qué es IPv6?**
 
 IPv6 (Internet Protocol version 6) es el sucesor de IPv4.
 
@@ -96,16 +96,4 @@ Unique Local (ULA): fc00::/7 (equivalente privado, como RFC1918 en IPv4).
 
 Multicast: ff00::/8.
 
-3. Diferencias clave IPv4 vs IPv6 (resumen)
 
-Tamaño: 32 bits vs 128 bits.
-
-Notación: decimal punteada vs hex y :.
-
-Broadcast: existe en IPv4, no en IPv6.
-
-NAT: muy común en IPv4; IPv6 promueve direccionamiento global directo.
-
-Autoconfiguración: IPv6 incluye SLAAC; IPv4 depende más de DHCP.
-
-Fragmentación: en IPv4 la hacen routers o hosts; en IPv6 la fragmentación la hace el host origen (routers no fragmentan).
