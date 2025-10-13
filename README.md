@@ -46,8 +46,23 @@ Htop y arch-linux
 - Usa la IP mostrada para definir el rango del escaneo.
 
 --
+## lynis 
+
+lynis es una herramienta de auditoría de seguridad y cumplimiento.
+Analiza configuraciones del sistema, permisos, autenticación, servicios, actualizaciones y políticas.
+
+- Configuración del sistema operativo.
+
+- Estado del cortafuegos y logs.
+
+- Permisos y cuentas de usuario.
+
+- Paquetes y actualizaciones pendientes.
+
+- Puntuación general de seguridad.
 
 --
+
 **¿Qué es IPv4?**
 
 IPv4 (Internet Protocol version 4) es la versión clásica del protocolo IP.
