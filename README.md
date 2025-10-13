@@ -24,12 +24,12 @@ Htop y arch-linux
 ## Complementar con ifconfig
 
 -ifconfig (o ip addr en sistemas modernos) muestra la configuración de las interfaces de red.
-** En que aporta**:
+- **En que aporta**:
       - Dirección IP local (IPv4 / IPv6).
       - Máscara de red, gateway, estado de la interfaz (UP/DOWN).
       - Cantidad de paquetes transmitidos/recibidos y errores.
 
-** Uso conjunto**:
+-**Uso conjunto**:
 
 - htop o glances → muestran si hay carga o consumo alto de red.
 - ifconfig → te deja verificar qué interfaz está activa, si hay IP asignada o pérdida de paquetes.
