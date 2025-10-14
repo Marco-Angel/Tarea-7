@@ -117,3 +117,17 @@ Tipos de direcciones IPv6:
       - Mostrar solo IPv6:
   <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7218f4c5-9164-42c1-b844-bb4e452f615c" />
 
+--
+
+## Instalación de Ach-linux
+
+      1. En el terminal de Ubuntu se crea un directorio llamado arch-linux, despues en el navegador buscar la pagina de Arch-linux para descargar el ISO.
+<img width="800" height="469" alt="image" src="https://github.com/user-attachments/assets/6a995adf-5e22-4e56-8453-49b89bf0256b" />
+
+      2. En la pagina de arch-linux buscar el pais en el que vives o el mas cercano, y desacargar la imagen.ISO que ocupa aproximadamente 1.4G.
+<img width="632" height="224" alt="image" src="https://github.com/user-attachments/assets/bc7b03d7-92d4-4c39-a5a4-a7dcfe26195d" />
+
+      3. Despues de descargar la imagen.ISO entrar al gestor de maquinas virtuales y crear una nueva maquina virtual, en este se debe buscar el la imagen.ISO que           se descargo, luego ajustar su memoria RAM y los nucleos de la CPU, para asi continuar con la instalación.
+<img width="737" height="447" alt="image" src="https://github.com/user-attachments/assets/b1134ca0-379d-458d-aff1-5ca41fc95a60" />
+<img width="505" height="455" alt="image" src="https://github.com/user-attachments/assets/bf9fe1cf-261b-4998-9aea-b555af5bfdab" />
+
