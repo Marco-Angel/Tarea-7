@@ -122,21 +122,23 @@ Tipos de direcciones IPv6:
 
 ## Instalación de Ach-linux
 
-      1. En el terminal de Ubuntu se crea un directorio llamado arch-linux, despues en el navegador buscar la pagina de Arch-linux para descargar el ISO.
+1. En el terminal de Ubuntu se crea un directorio llamado arch-linux, despues en el navegador buscar la pagina de Arch-linux para descargar el ISO.
       
 <img width="800" height="469" alt="image" src="https://github.com/user-attachments/assets/6a995adf-5e22-4e56-8453-49b89bf0256b" />
 
-      2. En la pagina de arch-linux buscar el pais en el que vives o el mas cercano, y desacargar la imagen.ISO que ocupa aproximadamente 1.4G.
+2. En la pagina de arch-linux buscar el pais en el que vives o el mas cercano, y desacargar la imagen.ISO que ocupa aproximadamente 1.4G.
       
 <img width="632" height="224" alt="image" src="https://github.com/user-attachments/assets/bc7b03d7-92d4-4c39-a5a4-a7dcfe26195d" />
 
-      3. Despues de descargar la imagen.ISO entrar al gestor de maquinas virtuales y crear una nueva maquina virtual, en este se debe buscar el la imagen.ISO que se descargo,luego ajustar su memoria RAM y los nucleos de la CPU, para asi continuar con la instalación.
+3. Despues de descargar la imagen.ISO entrar al gestor de maquinas virtuales y crear una nueva maquina virtual, en este se debe buscar el la imagen.ISO que se descargo,luego ajustar su memoria RAM y los nucleos de la CPU, para asi continuar con la instalación.
       
 <img width="737" height="447" alt="image" src="https://github.com/user-attachments/assets/b1134ca0-379d-458d-aff1-5ca41fc95a60" />
 <img width="505" height="455" alt="image" src="https://github.com/user-attachments/assets/bf9fe1cf-261b-4998-9aea-b555af5bfdab" />
 
-      4. En este paso cuando la maquina me arroja es esta teminal se debe escribir el comando "cfdisk", luego  Selecciona DOS y crea una partición primaria con todo el espacio y Márcala como Bootable, Selecciona Write → escribe yes y Selecciona Quit.
+4. En este paso cuando la maquina me arroja es esta teminal se debe escribir el comando "cfdisk", luego  Selecciona DOS y crea una partición primaria con todo el espacio y Márcala como Bootable, Selecciona Write → escribe yes y Selecciona Quit.
       
 <img width="715" height="427" alt="image" src="https://github.com/user-attachments/assets/6189be96-f280-4511-bbfe-a88819cdad03" />
 <img width="800" height="578" alt="image" src="https://github.com/user-attachments/assets/dd7796dc-c78a-40a0-838a-226510c350b9" />
 
+5. Despues de hacer lapartición, se formatea con el comando mkfs.ext4. Despues se monta el disco con mount para configurarlo.Luego se debe instalar el sistema base con el comando: pacstrap.
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/0c5cc394-934b-4b01-8a73-6dd99b308d69" />
