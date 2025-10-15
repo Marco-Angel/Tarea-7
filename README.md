@@ -131,3 +131,6 @@ Tipos de direcciones IPv6:
 <img width="737" height="447" alt="image" src="https://github.com/user-attachments/assets/b1134ca0-379d-458d-aff1-5ca41fc95a60" />
 <img width="505" height="455" alt="image" src="https://github.com/user-attachments/assets/bf9fe1cf-261b-4998-9aea-b555af5bfdab" />
 
+      4. En este paso cuando la maquina me arroja es esta teminal se debe escribir el comando "cfdisk", luego  Selecciona DOS y crea una partición primaria con todo el espacio y Márcala como Bootable, Selecciona          Write → escribe yes y Selecciona Quit.
+<img width="715" height="427" alt="image" src="https://github.com/user-attachments/assets/6189be96-f280-4511-bbfe-a88819cdad03" />
+
